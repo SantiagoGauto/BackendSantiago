@@ -1,0 +1,8 @@
+¿Por qué prefiero handlebars?
+en mi opinión handlebars se asemeja mucho al sistema de componentes de ReactJs, pero sin complicar la sintaxis y no hace falta leer la documentación.
+pug y ejs si hace falta leer la documentación, ya que posee más dificultad a la hora de escribir código.
+Al usar ejs es fastidioso, ya que hay que estar atento a cerrar todo el tiempo las líneas de código con "<% %>" y su sintaxis de cuando usar "%,- o =" puesto que esto aumenta las probabilidades de error. 
+
+1- handlebars
+2- pug
+3- ejs

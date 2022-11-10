@@ -1,0 +1,12 @@
+<%- include ('./partials/nav.ejs'); %>
+
+<div>
+    <h2>Lista de productos cargados</h2>
+    <% products.forEach((product) =>{ %>
+        <p><%= product.title %></p>
+        <p><%= product.id %></p>
+        <p><%= product.price %></p>
+        <p><%= product.thumbnail %></p>
+        <br>
+    <% }) %>
+</div>

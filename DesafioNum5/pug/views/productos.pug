@@ -1,0 +1,12 @@
+include ../views/nav.pug
+div 
+    h2 Lista de productos cargados
+        each product in products  
+            div 
+                p= product.title
+                p= product.id
+                p= product.price
+                p= product.thumbnail
+                br
+            
+                

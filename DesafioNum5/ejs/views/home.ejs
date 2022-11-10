@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 5</title>
+    <link rel="stylesheet" href="../public/css/style.css">
+</head>
+        <%- include ('./partials/nav.ejs'); %>
+<body>
+    <div>
+        <h2>Cargar producto</h2>
+        <form method="post" action="/productos">
+        <label>Producto</label>
+        <input type="text" name="title">
+        <label>Precio</label>
+        <input type="text" name="price">
+        <label>Imagen</label>
+        <input type="text" name="thumbnail">
+        <button type="submit">Cargar</button>
+        </form>
+    </div>
+</body>
+</html>

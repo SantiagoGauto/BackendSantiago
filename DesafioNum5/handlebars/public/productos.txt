@@ -1,0 +1,14 @@
+[
+  {
+    "title": "Ferrari",
+    "price": "100000",
+    "thumbnail": "https://cdn2.iconfinder.com/data/icons/Matchbox-Car-Icons-Mac/512/Ferrari_Berlinetta.png",
+    "id": 1
+  },
+  {
+    "id": 2,
+    "title": "BMW",
+    "price": "2000",
+    "thumbnail": "https://cdn0.iconfinder.com/data/icons/car-brands/550/BMW_logo-512.png"
+  }
+]
