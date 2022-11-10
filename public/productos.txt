@@ -1,31 +1,7 @@
 [
   {
-    "title": "Cama",
-    "price": 5000,
-    "thumbnail": "https://d2r9epyceweg5n.cloudfront.net/stores/974/272/products/cama-dover-jac017281-a559e885b3b865d26516211099592869-1024-1024.jpg",
-    "id": 2
-  },
-  {
-    "title": "Silla",
-    "price": 2000,
-    "thumbnail": "https://d3ugyf2ht6aenh.cloudfront.net/stores/001/169/255/products/miami-21-d803f88b971129270f16085683665147-480-0.jpeg",
-    "id": 3
-  },
-  {
-    "title": "Mesa",
-    "price": 1000,
-    "thumbnail": "http://d3ugyf2ht6aenh.cloudfront.net/stores/243/765/products/dc87d9f9-3999-489b-8318-baea1059327f-d1caad2fd40e3f099016598937634760-640-0.jpeg",
-    "id": 4
-  },
-  {
-    "title": "Mueble",
-    "price": 500,
-    "thumbnail": "https://d3ugyf2ht6aenh.cloudfront.net/stores/290/188/products/af793026-54cc-4f04-b0f0-83007cef14a71-7753000e4e0aa716eb15946739447331-1024-1024.jpg",
-    "id": 5
-  },
-  {
-    "title": "Sofa",
-    "price": 3000,
-    "thumbnail": "https://imagenes.elpais.com/resizer/j5ukr_WKhGx0Vpav--Cp_i43QYo=/1960x1470/cloudfront-eu-central-1.images.arcpublishing.com/prisa/JFVYZAVVRZE7TNG2UF44AQT2OQ.png",
-    "id": 6
-  },
+    "title": "mouse",
+    "price": "100",
+    "id": 12
+  }
+]

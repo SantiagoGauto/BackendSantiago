@@ -2,9 +2,9 @@ const express = require('express');
 const port = 8080;
 const app = express();
 const Contenedor = require('./public/Container')
+const data = new Contenedor('./public/productos.txt');
 
 const routerExpress = express.Router();
-const data = new Contenedor('./public/productos.txt');
 
 app.use(express.urlencoded({extended: true}));
 app.use(express.json());
