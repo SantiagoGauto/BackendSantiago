@@ -1,0 +1,21 @@
+[
+  {
+    "id": 12,
+    "timestamp": "12/08/2022",
+    "nombre": "mouse",
+    "descripcion": "Un mouse de computadora",
+    "codigo": "00294182",
+    "foto": "www.google.com",
+    "precio": "100",
+    "stock": 1
+  },
+  {
+    "nombre": "sandiasmuchas",
+    "descripcion": "fghfgdsfg",
+    "foto": "thrte",
+    "precio": "65666",
+    "stock": "2",
+    "id": 13,
+    "timestamp": "24/11/2022"
+  }
+]
