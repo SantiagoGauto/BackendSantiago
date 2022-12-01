@@ -1,0 +1,28 @@
+<div>
+    <h2>Cargar producto</h2>
+    <form id="productForm">
+    <label>Producto</label>
+    <input type="text" name="title" id="title">
+    <label>Precio</label>
+    <input type="text" name="price" id="price">
+    <label>Imagen</label>
+    <input type="text" name="thumbnail" id="thumbnail">
+    <button type="submit">Cargar</button>
+    </form>
+
+</div>
+<br>
+<h1>Chat</h1>
+<p id="email"></p>    
+<form id="chatForm">
+    <input type="text" id="messageChat">
+    <button type="submit">Enviar</button>
+</form>
+<br>
+<div id="chatContainer"></div>
+<br>
+<div id="productsContainer"></div>
+{{> scripts}}
+<script src="/socket.io/socket.io.js"></script>
+<script src="home.js"></script>
+<script src="index.js"></script>
