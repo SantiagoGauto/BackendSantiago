@@ -1,0 +1,53 @@
+mongo
+use ecommerce
+db.createCollection("productos")
+db.createCollection("mensajes")
+
+documentos para productos:
+
+db.productos.insertMany([
+    {id: 1, title: "pera", price: 100, thumbnail: "pera.jpg"},
+    {id: 2, title: "mandarina", price: 120, thumbnail: "mandarina.jpg"},
+    {id: 3, title: "kiwi", price: 160, thumbnail: "kiwi.jpg"},
+    {id: 4, title: "arandano", price: 80, thumbnail: "arandano.jpg"},
+    {id: 5, title: "frutilla", price: 60, thumbnail: "frutilla.jpg"},
+    {id: 6, title: "cereza", price: 100, thumbnail: "cereza.jpg"},
+    {id: 7, title: "banana", price: 150, thumbnail: "banana.jpg"},
+    {id: 8, title: "manzana", price: 130, thumbnail: "manzana.jpg"},
+    {id: 9, title: "uva", price: 90, thumbnail: "uva.jpg"},
+    {id: 10, title: "sandia", price: 300, thumbnail: "sandia.jpg"}
+])
+
+documentos para mensajes:
+
+db.mensajes.insertMany([
+    {id: 1, email: "asdsad@gmail.com", time: "07/12/2022", msg: "hola buen dia"},
+    {id: 2, email: "asdgfgssad@gmail.com", time: "07/12/2022", msg: "hola buenas tardes"},
+    {id: 3, email: "asgf3gd@gmail.com", time: "07/12/2022", msg: "buenas noches"},
+    {id: 4, email: "ajsd@gmail.com", time: "07/12/2022", msg: "hasta luego"},
+    {id: 5, email: "azxcgk@gmail.com", time: "07/12/2022", msg: "hastap pronto"},
+    {id: 6, email: "mnqjzcv@gmail.com", time: "07/12/2022", msg: "que tenga una buena tarde"},
+    {id: 7, email: "qqoerkf@gmail.com", time: "07/12/2022", msg: "disculpe"},
+    {id: 8, email: "ffjgqo@gmail.com", time: "07/12/2022", msg: "como está"},
+    {id: 9, email: "klpqad@gmail.com", time: "07/12/2022", msg: "que hora es"},
+    {id: 10, email: "gjsad@gmail.com", time: "07/12/2022", msg: "que fecha es hoy"}
+])
+
+db.productos.find()
+db.mensajes.find()
+
+db.productos.count()
+db.mensajes.cont()
+
+db.productos.insertOne({id: 11, title: "naranja", price: 500, thumbnail: "naranja.jpg"})
+
+db.productos.find({price: {$lt: 100}})
+db.productos.find({price: {$in: [100, 300]}})
+db.productos.find({price: {$gte: 300}})
+db.productos.find().sort({price:1}).limit(1).skip(3)
+db.productos.updateMany({}, {$set: {"stock": 100}})
+db.productos.updateMany({price: {$gte: 300}}, {$set: {"stock": 0}})
+db.productos.deleteMany({price: {$lt: 100}})
+
+use admin
+db.createUser({user: "pepe", pwd: "asd456", roles:[{role: "read", db: "ecommerce"}]})
