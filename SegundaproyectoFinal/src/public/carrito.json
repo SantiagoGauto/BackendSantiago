@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "timestamp": "22/11/2022",
+    "products": [
+      {
+        "id": 12,
+        "timestamp": "12/08/2022",
+        "nombre": "mouse",
+        "descripcion": "Un mouse de computadora",
+        "codigo": "00294182",
+        "foto": "www.google.com",
+        "precio": "100",
+        "stock": 1
+      }
+    ]
+  }
+]
