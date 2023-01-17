@@ -1,0 +1,26 @@
+.imgContent {
+    display: flex;
+    align-items: center;
+}
+.imgProduct {
+    width: 40px;
+}
+
+.message {
+    display: flex;
+}
+
+.textEmail {
+    color: rgb(13, 104, 223);
+    font-weight: bold;
+}
+
+.textTime {
+    color: rgb(109, 68, 5);
+}
+
+.textMsg {
+    margin-left: 10px;
+    font-style: italic;
+    color: rgb(18, 160, 5);
+}

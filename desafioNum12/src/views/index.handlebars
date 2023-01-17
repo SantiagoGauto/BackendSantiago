@@ -1,0 +1,25 @@
+<div class="container bg-secondary pb-5 align-items-center justify-content-center">
+    <h2 class="text-center">Rescate Informático</h2>
+    <div class="d-flex justify-content-between">
+        <h2 class="mr-4">Bienvenido {{name}} </h2>
+        <button onclick="location.href='/logout'" type="button" class="ml-4 btn btn-danger">Cerrar Sesion</button>
+    </div>
+</div>
+<div id="productsShow"></div>
+<form id="tempForm" class="row align-items-center justify-content-center">
+<button type="submit" id="buttonChat" style="max-width: 30%;">Mostrar Chat</button>
+</form>
+<div id="messagesContainer container"></div>
+    <form id="messagesForm" class="d-none">
+        <textarea name="message" id="textAreaMessage" class="form-control mx-4 col" ></textarea>
+        <button type="submit" class="col">Aceptar</button>
+    </form>
+    <div id="messagesPorcentaje"></div>
+    <div id="messagesShow"></div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/normalizr@3.6.1/dist/normalizr.browser.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.7/handlebars.min.js" integrity="sha512-RNLkV3d+aLtfcpEyFG8jRbnWHxUqVZozacROI4J2F1sTaDqo1dPQYs01OMi1t1w9Y2FdbSCDSQ2ZVdAC8bzgAg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="/socket.io/socket.io.js"></script>
+<script src="index.js"></script>
