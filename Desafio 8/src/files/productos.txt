@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "title": "Teclado",
+    "price": "20000",
+    "thumbnail": "https://resource.logitech.com/w_386,ar_1.0,c_limit,f_auto,q_auto,dpr_2.0/d_transparent.gif/content/dam/logitech/en/products/keyboards/k650-signature-wireless-keyboard/gallery/k650-top-graphite-us.png?v=1"
+  },
+  {
+    "id": 2,
+    "title": "Mouse",
+    "price": "9000",
+    "thumbnail": "https://mexx-img-2019.s3.amazonaws.com/mouse-logitech-gamer-rgb-lila_38560_5.jpeg?v187"
+  },
+  {
+    "id": 3,
+    "title": "Monitor",
+    "price": "104000",
+    "thumbnail": "https://www.lg.com/es/images/monitores/MD06025876/gallery/medium03.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Motherboard",
+    "price": "75000",
+    "thumbnail": "https://mla-s1-p.mlstatic.com/971557-MLA46012928724_052021-F.jpg"
+  },
+  {
+    "id": 5,
+    "title": "Procesador",
+    "price": "63000",
+    "thumbnail": "https://www.fullh4rd.com.ar/img/productos/Pics_Prod/micro-intel-core-i3-12100f-svideo-s1700-0.jpg"
+  },
+  {
+    "id": 6,
+    "title": "Placa de video",
+    "price": "335499",
+    "thumbnail": "https://http2.mlstatic.com/D_NQ_NP_674158-MLA45846396478_052021-O.jpg"
+  }
+]

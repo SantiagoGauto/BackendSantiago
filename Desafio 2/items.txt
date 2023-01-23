@@ -1,0 +1,7 @@
+[
+  {
+    title: "Keyboard",
+    price: 19800,
+    thumbnail: "https://elchapuzasinformatico.com/wp-content/uploads/2020/11/AKKO-3068-10.jpg",
+  }
+]

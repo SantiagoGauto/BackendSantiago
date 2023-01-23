@@ -1,0 +1,50 @@
+[
+  {
+    "id": "0",
+    "name": "Teclado",
+    "img": "https://m.media-amazon.com/images/I/71yGtauB-AL._AC_SY450_.jpg",
+    "price": 20000,
+    "stock": 20,
+    "category": "perifericos"
+  },
+  {
+    "id": "1",
+    "name": "Mouse",
+    "img": "https://mexx-img-2019.s3.amazonaws.com/mouse-logitech-gamer-rgb-lila_38560_5.jpeg?v187",
+    "price": 9000,
+    "stock": 15,
+    "category": "perifericos"
+  },
+  {
+    "id": "2",
+    "name": "Monitor",
+    "img": "https://www.lg.com/es/images/monitores/MD06025876/gallery/medium03.jpg",
+    "price": 104000,
+    "stock": 9,
+    "category": "perifericos"
+  },
+  {
+    "id": "3",
+    "name": "Motherboard",
+    "img": "https://m.media-amazon.com/images/I/51OVWRFJxsL._AC_SY580_.jpg",
+    "price": 75000,
+    "stock": 8,
+    "category": "componentes"
+  },
+  {
+    "id": "4",
+    "name": "Procesador",
+    "img": "http://www.karlosperu.com/wp-content/uploads/2017/06/Intel-procesador.jpg",
+    "price": 63000,
+    "stock": 4,
+    "category": "componentes"
+  },
+  {
+    "id": "5",
+    "name": "Placa de video",
+    "img": "https://images.fravega.com/f500/02392f4a30189dbbebfd0d9cf5b8de3a.jpg",
+    "price": 335499,
+    "stock": 3,
+    "category": "componentes"
+  }
+]

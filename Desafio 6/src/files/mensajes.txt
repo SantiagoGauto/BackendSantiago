@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "name": "JuanLopez@gmail.com",
+    "message": "Hola! que buenos productos!"
+  },
+  {
+    "name": "pepe",
+    "message": "hola!",
+    "id": 2
+  },
+  {
+    "name": "Santiago",
+    "message": "Que bien anda el chat de la página!",
+    "id": 3
+  },
+  {
+    "name": "Andrea",
+    "message": "Es verdad",
+    "id": 4
+  },
+  {
+    "name": "Pedro}",
+    "message": "Q lindos productos",
+    "id": 5
+  },
+  {
+    "name": "Juan",
+    "message": "Quiero llevar todos",
+    "id": 6
+  }
+]
