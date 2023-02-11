@@ -1,0 +1,17 @@
+<div class="container">
+  {{#if productos}}
+  <div class="row row-cols-2">
+    {{#each productos}}
+        <div class="card m-2" style="width: 18rem;">
+            <img src={{this.thumbnail}} class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title text-center">{{this.title}}</h5>
+                <p class="card-text text-center">$: {{this.price}}</p>
+            </div>
+        </div>
+    {{/each}}
+  </div>
+  {{else}}
+  <h1>No Hay Productos</h1>
+  {{/if}}
+</div>

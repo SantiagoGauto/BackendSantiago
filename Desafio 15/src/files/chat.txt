@@ -1,0 +1,38 @@
+[
+  {
+    "author": {
+      "email": "santidd11@gmail.com",
+      "name": "Santi",
+      "lastname": "Díaz",
+      "age": "21",
+      "nickname": "SantiDD11",
+      "avatar": "no"
+    },
+    "text": "Que bien que quedó la pagina!!",
+    "id": 1
+  },
+  {
+    "author": {
+      "email": "santidd11@gmail.com",
+      "name": "Santi",
+      "lastname": "Díaz",
+      "age": "21",
+      "nickname": "SantiDD11",
+      "avatar": "no"
+    },
+    "text": "Se nota el esfuerzo",
+    "id": 2
+  },
+  {
+    "author": {
+      "email": "willburs001@gmail.com",
+      "name": "Test",
+      "lastname": "Prueba",
+      "age": "42",
+      "nickname": "PruebaTest",
+      "avatar": "no"
+    },
+    "text": "Es verdad!!",
+    "id": 3
+  }
+]
