@@ -1,0 +1,23 @@
+<h2 class="mx-5 my-2">Registrate</h2>
+<div class="mx-5 my-2">
+    <form action="/signup" method="POST" style="max-width:400px" class="mx-auto my-5">
+        {{#if message}}
+            <p class="text-danger">{{message}}</p>
+        {{/if}}
+        <label>Correo:</label>
+        <input class="form-control" type="text" name="email" placeholder="Ingresa tu correo"/>
+        <label>Contraseña:</label>
+        <input class="form-control" type="password" name="password" placeholder="Ingresa la contraseña"/>
+        <label>Nombre:</label>
+        <input class="form-control" type="text" name="name" placeholder="Ingresa su nombre"/>
+        <label>Direccion:</label>
+        <input class="form-control" type="text" name="dir" placeholder="Ingresa su direccion"/>
+        <label>Edad:</label>
+        <input class="form-control" type="text" name="age" placeholder="Ingresa su edad"/>
+        <label>Telefono:</label>
+        <input class="form-control" type="text" name="tel" placeholder="Ingresa su telefono"/>
+        <button type="submit" class="btn btn-info my-3">Registrarse</button>
+    </form>
+    <hr>
+    <a href="/login">Ya tiene una cuenta?, inicia sesión</a>
+</div>
