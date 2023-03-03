@@ -1,0 +1,24 @@
+<nav class="container bg-secondary border-bottom border-4 border-dark">
+    <a href="/" class="text-dark">Home</a>
+    <a href="/productos" class="text-dark">Productos</a>
+    <a href="/carrito/{{idUser}}" class="text-dark">Carrito</a>
+</nav>
+<div class="row container-fluid">
+    {{#each productos}}
+        <div class="col-3">
+            <div class="card" style="width: 18rem;">
+                <img src={{this.thumbnail}} class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">{{this.title}}</h5>
+                    <p class="card-text">{{this.description}} </p>
+                    <p class="card-text">{{this.price}} </p>
+                    {{#if ../idUser}}
+                    <form action="/carrito/{{../idUser}}/{{this.code}}" method="post">
+                        <button type="submit" class="btn btn-primary">Agregar al carrito</button>
+                    </form>
+                    {{/if}}
+                </div>
+            </div>
+        </div>
+    {{/each}}
+</div>

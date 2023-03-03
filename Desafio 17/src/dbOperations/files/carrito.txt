@@ -1,0 +1,77 @@
+[
+  {
+    "id": 1,
+    "productos": [
+      {
+        "id": 1,
+        "timestamp": "01-09-2022",
+        "code": 1243,
+        "title": "Teclado",
+        "price": "20000",
+        "thumbnail": "https://resource.logitech.com/w_386,ar_1.0,c_limit,f_auto,q_auto,dpr_2.0/d_transparent.gif/content/dam/logitech/en/products/keyboards/k650-signature-wireless-keyboard/gallery/k650-top-graphite-us.png?v=1",
+        "description": "Teclado de 89 teclas diseño de 89 teclas, ahorra espacio con la premisa de preservar las teclas numericas de uso comun. perfecto para la oficina y los juegos. presione fn retroceso para encender el bloq num. la luz del teclado numerico esta encendida y es funcional.",
+        "stock": 10
+      }
+    ]
+  },
+  {
+    "timestamp": "02-21-2023",
+    "productos": [
+      {
+        "id": 2,
+        "code": 1254,
+        "title": "Mouse",
+        "price": "9000",
+        "thumbnail": "https://mexx-img-2019.s3.amazonaws.com/mouse-logitech-gamer-rgb-lila_38560_5.jpeg?v187",
+        "timestamp": "01-09-2020",
+        "description": "Botones primarios con resistencia de hasta 50 millones de clicks y agarres de goma son sólo algunos de los detalles pensados para brindar la mejor experiencia.",
+        "stock": 12
+      }
+    ],
+    "id": 2
+  },
+  {
+    "productos": [
+      {
+        "id": 1,
+        "code": 1243,
+        "title": "Teclado",
+        "price": "20000",
+        "thumbnail": "https://resource.logitech.com/w_386,ar_1.0,c_limit,f_auto,q_auto,dpr_2.0/d_transparent.gif/content/dam/logitech/en/products/keyboards/k650-signature-wireless-keyboard/gallery/k650-top-graphite-us.png?v=1",
+        "timestamp": "01-09-2022",
+        "description": "Teclado de 89 teclas diseño de 89 teclas, ahorra espacio con la premisa de preservar las teclas numericas de uso comun. perfecto para la oficina y los juegos. presione fn retroceso para encender el bloq num. la luz del teclado numerico esta encendida y es funcional.",
+        "stock": 10
+      },
+      {
+        "id": 5,
+        "code": 7845,
+        "title": "Procesador",
+        "price": "63000",
+        "thumbnail": "https://www.fullh4rd.com.ar/img/productos/Pics_Prod/micro-intel-core-i3-12100f-svideo-s1700-0.jpg",
+        "timestamp": "01-09-2018",
+        "description": "Productividad y entretenimiento, todo disponible en tu computadora de escritorio. La superioridad tecnológica de INTEL es un beneficio para todo tipo de profesionales. Asegura el mejor rendimiento de las aplicaciones, de la transferencia de datos y la conexión con otros elementos tecnológicos.",
+        "stock": 5
+      },
+      {
+        "id": 6,
+        "title": "Placa de video",
+        "price": "335499",
+        "thumbnail": "https://http2.mlstatic.com/D_NQ_NP_674158-MLA45846396478_052021-O.jpg",
+        "timestamp": "01-10-2018",
+        "description": "Diseñada en base a dos décadas de tarjetas gráficas premiadas, ha llegado el momento de evolucionar más allá en el Gaming.",
+        "stock": 3
+      },
+      {
+        "id": 2,
+        "code": 1254,
+        "title": "Mouse",
+        "price": "9000",
+        "thumbnail": "https://mexx-img-2019.s3.amazonaws.com/mouse-logitech-gamer-rgb-lila_38560_5.jpeg?v187",
+        "timestamp": "01-09-2020",
+        "description": "Botones primarios con resistencia de hasta 50 millones de clicks y agarres de goma son sólo algunos de los detalles pensados para brindar la mejor experiencia.",
+        "stock": 12
+      }
+    ],
+    "id": "63f3fe6771081ce976c4065d"
+  }
+]
