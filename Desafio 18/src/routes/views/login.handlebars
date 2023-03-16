@@ -1,0 +1,15 @@
+<div class="mx-5 my-2">
+    <form action="/login" method="POST" style="max-width:400px" class="mx-auto my-5">
+            {{#if message}}
+                <p class="text-danger">{{message}}</p>
+            {{/if}}
+        <label class="form-label">Correo:</label>
+        <input class="form-control" type="text" name="email" placeholder="Ingresa tu correo"/>
+        <label class="form-label">Contraseña:</label>
+        <input class="form-control" type="password" name="password" placeholder="Ingresa la contraseña"/>
+        <button type="submit" class="btn btn-primary my-3">Iniciar sesión</button>
+    </form>
+    <br/>
+    <hr>
+    <a href="/signup">Todavía no tienes una cuenta?, registrate</a>
+</div>

@@ -1,0 +1,26 @@
+<nav class="container bg-secondary border-bottom border-4 border-dark">
+    <a href="/" class="text-dark">Home</a>
+    <a href="/productos" class="text-dark">Productos</a>
+    <a href="/carrito/{{idUser}}" class="text-dark">Carrito</a>
+</nav>
+<div class="container bg-secondary pb-5 align-items-center justify-content-center">
+    <h2 class="text-center">Rescate Informático</h2>
+    <div class="d-flex justify-content-between mb-4">
+        <h2 class="mr-4">Bienvenido {{usuario.name}} </h2>
+        <button onclick="location.href='/logout'" type="button" class="ml-4 btn btn-danger">Cerrar Sesion</button>
+    </div>
+    <div class="mt-4">
+        <h3 class="text-center mb-4">Información del usuario</h3>
+        <img src={{usuario.thumbnail}} class="img-thumbnail text-center" alt="imagen">
+        <h4 class="text-light">Nombre: {{usuario.name}} </h4>
+        <h4 class="text-light">Mail: {{usuario.email}} </h4>
+        <h4 class="text-light">Edad: {{usuario.age}} </h4>
+        <h4 class="text-light">Direccion: {{usuario.dir}} </h4>
+        <h4 class="text-light">Telefono: {{usuario.tel}} </h4>
+    </div>
+</div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/normalizr@3.6.1/dist/normalizr.browser.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.7/handlebars.min.js" integrity="sha512-RNLkV3d+aLtfcpEyFG8jRbnWHxUqVZozacROI4J2F1sTaDqo1dPQYs01OMi1t1w9Y2FdbSCDSQ2ZVdAC8bzgAg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
