@@ -1,0 +1,42 @@
+[
+  {
+    "movimiento": "Lectura de la colección productos",
+    "DB": "FileSistem",
+    "id": 1
+  },
+  {
+    "movimiento": "Lectura de la colección productos",
+    "DB": "FileSistem",
+    "id": 2
+  },
+  {
+    "movimiento": "Lectura de producto",
+    "DB": "FileSistem",
+    "id": 3
+  },
+  {
+    "movimiento": "Lectura de la colección productos",
+    "DB": "FileSistem",
+    "id": 4
+  },
+  {
+    "movimiento": "Lectura de la colección carritos",
+    "DB": "FileSistem",
+    "id": 5
+  },
+  {
+    "movimiento": "Lectura de la colección productos",
+    "DB": "Firestore",
+    "id": 6
+  },
+  {
+    "movimiento": "Lectura de la colección carritos",
+    "DB": "Firestore",
+    "id": 7
+  },
+  {
+    "movimiento": "Lectura de la colección productos",
+    "DB": "FileSistem",
+    "id": 8
+  }
+]
